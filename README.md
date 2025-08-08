@@ -127,21 +127,30 @@ https://github.com/KKKuznetsov/Primary_data
 C:\Users\user\Desktop\Итоговые отчеты 
 
 Дополнительно создам папку для самой программы, где будут храниться необходимые файлы:
+
 C:\Users\user\Desktop\Python_scripts\automated_processing
 
 Внутри папки программы создам папку, где будет храниться шапка в формате xlsx с набором полей, которые будут привязанны к полям моей исходной таблице в PostgreSQL:
+
 C:\Users\user\Desktop\Python_scripts\automated_processing\report_header\report_header.xlsx
+
 Под эту шапку мы будем переносить исходные данные наших исходных отчетов.
 
 Создам папку Scripts:
+
 C:\Users\user\Desktop\Python_scripts\automated_processing\Scripts
+
 И внутри нее создам также две папки:
+
 C:\Users\user\Desktop\Python_scripts\automated_processing\Scripts\Distibutors
 C:\Users\user\Desktop\Python_scripts\automated_processing\Scripts\Nets
+
 Это нужно, т.к отчеты от разных поставщиков имеют разную структуру данных в отчетах и должны обрабатываться по разному.
 
-Создам папку Reestr
+Создам папку Reestr:
+
 C:\Users\user\Desktop\Python_scripts\automated_processing\Reestr
+
 Она нам понадобится для того, чтобы понимать, какие файлы были обработаны в сессии, для каких не нашлось скрипта и его нужно создать.
 
 Теперь перейдем к самому скрипту, который будет обрабатывать данные и выкладывать обработанные данные для дальнейшей загрузки в созданный исходник.
