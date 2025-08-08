@@ -65,7 +65,7 @@
 Такое решение позволит автоматизировать процесс учёта и исключить дублирование, а также обеспечит прозрачность и контроль в любой момент времени.
 
 Решение на PostgreSQL.
-[https://github.com/KKKuznetsov/Create_table_PostgreSQL](https://github.com/KKKuznetsov/Create_table_file_registry_PostgreSQL)
+[https://github.com/KKKuznetsov/Create_table_file_registry_PostgreSQL
 
 После того, как мы создали хранилище, мы можем наполнить его данными, для этого напишем скрипт на Python, который будет:
 
