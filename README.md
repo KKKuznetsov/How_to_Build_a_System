@@ -112,6 +112,7 @@ https://github.com/KKKuznetsov/Python_TaskScheduler
 Спроектируем набор полей нашего исходника и создадим его в PostgreSQL.
 
 Решение на PostgreSQL.
+https://github.com/KKKuznetsov/Primary_data
 
 
 
