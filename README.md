@@ -146,8 +146,11 @@ C:\Users\user\Desktop\Python_scripts\automated_processing\
 ├─ Scripts\
 
 │   ├─ Distibutors\                 # поставщики типа "Дистрибьютор"
+
 │   │   └─ Client_01\Client_01_processing.py
+
     │   └─ Client_01\Client_02_processing.py
+    
     │   └─ Client_01\Client_03_processing.py
    
 ├─ report_header\
