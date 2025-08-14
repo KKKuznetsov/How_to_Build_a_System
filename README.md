@@ -134,17 +134,22 @@ DELETE - файл удален.
 
 Примеры error_reason: NO_SCRIPT_FOUND, NO_OUTPUT_FILE, TIMEOUT, LOCKED, NO_SPACE, PATH_TOO_LONG, RETURN_CODE_X.
 
-Структура папок
+Структура папок:
 
 C:\Users\user\Desktop\Python_scripts\automated_processing\
+
 ├─ start_processing.py              # оркестратор
+
 ├─ Reestr\
 │   └─ new_files_registry.csv       # реестр текущего запуска (read-only)
+
 ├─ Scripts\
+
 │   ├─ Distibutors\                 # поставщики типа "Дистрибьютор"
 │   │   └─ Client_01\Client_01_processing.py
     │   └─ Client_01\Client_02_processing.py
     │   └─ Client_01\Client_03_processing.py
+   
 ├─ report_header\
 │   └─ report_header.xlsx           # эталонная шапка (схема целевых колонок)
 
